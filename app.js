@@ -43,7 +43,7 @@ const authClient = new google.auth.JWT(
 
 			// For each row
 			for (const row of rows) {
-					answers.push({ timeStamp: row[0], answer1: row[1],  answer2: row[2], answer3: row[3], answer4: row[4], repositoryName: row[5]});
+				answers.push({ timeStamp: row[0], answer1: row[1],  answer2: row[2], answer3: row[3], answer4: row[4], repositoryName: row[5]});
 			}
 
 		} else {
