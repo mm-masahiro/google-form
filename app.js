@@ -26,7 +26,7 @@ const authClient = new google.auth.JWT(
 		const res = await service.spreadsheets.values.get({
 			auth: authClient,
 			spreadsheetId: "1r59N6wuaaW4Ue4heIyoXp3oafpLkz2lqVB5VTmsWPc0",
-			range: "A:E",
+			range: "A:F",
 		});
 
 		// All of the answers
@@ -43,7 +43,7 @@ const authClient = new google.auth.JWT(
 
 			// For each row
 			for (const row of rows) {
-					answers.push({ timeStamp: row[0], answer1: row[1],  answer2: row[2], answer3: row[3], answer4: row[4]});
+					answers.push({ timeStamp: row[0], answer1: row[1],  answer2: row[2], answer3: row[3], answer4: row[4], repositoryName: row[5]});
 			}
 
 		} else {
