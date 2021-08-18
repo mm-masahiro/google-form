@@ -9,7 +9,8 @@ console.log(latestAnswer)
 
 octokit.issues.create({
   owner: 'mm-masahiro',
-  repo: 'google-form',
+  // repo: 'google-form',
+  repo: latestAnswer.repositoryName,
   title: process.argv[2],
   // body: parse,
   body: `${latestAnswer.answer1}\n${latestAnswer.answer2}\n${latestAnswer.answer3}\n${latestAnswer.answer4}`,
