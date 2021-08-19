@@ -3,8 +3,6 @@ const dotEnv = require('dotenv').config();
 const octokit = new Octokit({auth: process.env.ACCESS_TOKEN});
 const latestAnswer = require("./answers.json").slice(-1)[0]
 
-const parse = JSON.stringify(latestAnswer)
-
 octokit.issues.create({
   owner: 'mm-masahiro',
   repo: latestAnswer.repositoryName,
