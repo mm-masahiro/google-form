@@ -10,6 +10,8 @@ on: push
 jobs:
   build:
     name: Build
-    runs-on: [self-hosted, macos]
+    runs-on: self-hosted
     steps:
-      - run: echo "Hello, world"
+      - name: Test1
+        run: |
+          cat /run.sh
