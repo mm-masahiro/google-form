@@ -122,3 +122,37 @@ Date: Sat, 25 Sep 2021 08:18:18 GMT
 [2021-09-25 08:18:19Z INFO MessageListener] Session created.
 [2021-09-25 08:18:19Z INFO Terminal] WRITE LINE: 2021-09-25 08:18:19Z: Listening for Jobs
 [2021-09-25 08:18:19Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2021-09-25 08:23:41Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/morinagamasahiro/google-form/.credentials_rsaparams
+[2021-09-25 08:23:41Z INFO MessageListener] Message '1' received from session 'ccd8c7c6-1f54-4b1c-8e08-2171b23ce866'.
+[2021-09-25 08:23:42Z INFO JobDispatcher] Job request 5 for plan afafb6e3-7793-41c3-bd60-fe47a9bf8618 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2021-09-25 08:23:42Z INFO JobDispatcher] Pull OrchestrationId afafb6e3-7793-41c3-bd60-fe47a9bf8618.build.__default from JWT claims
+[2021-09-25 08:23:42Z INFO Terminal] WRITE LINE: 2021-09-25 08:23:42Z: Running job: Build
+[2021-09-25 08:23:42Z INFO JobDispatcher] Start renew job request 5 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-09-25 08:23:42Z INFO JobDispatcher] Successfully renew job request 5, job is valid till 2021/09/25 8:33:42
+[2021-09-25 08:23:42Z INFO HostContext] Well known directory 'Bin': '/Users/morinagamasahiro/google-form/bin'
+[2021-09-25 08:23:42Z INFO ProcessInvokerWrapper] Starting process:
+[2021-09-25 08:23:42Z INFO ProcessInvokerWrapper]   File name: '/Users/morinagamasahiro/google-form/bin/Runner.Worker'
+[2021-09-25 08:23:42Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 102'
+[2021-09-25 08:23:42Z INFO ProcessInvokerWrapper]   Working directory: '/Users/morinagamasahiro/google-form/bin'
+[2021-09-25 08:23:42Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-09-25 08:23:42Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-09-25 08:23:42Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-09-25 08:23:42Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-09-25 08:23:42Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-09-25 08:23:42Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-09-25 08:23:42Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-09-25 08:23:42Z INFO ProcessInvokerWrapper] Process started with process id 99045, waiting for process exit.
+[2021-09-25 08:23:42Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-09-25 08:23:42Z INFO ProcessChannel] Sending message of length 20653, with hash '7298647031934f6be328cf610c9104c1204fa3b011d2fc1717d19406b4bec7a4'
+[2021-09-25 08:23:42Z INFO JobNotification] Entering JobStarted Notification
+[2021-09-25 08:23:42Z INFO JobNotification] Entering StartMonitor
+[2021-09-25 08:23:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-09-25 08:23:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-09-25 08:23:47Z INFO ProcessInvokerWrapper] Finished process 99045 with exit code 100, and elapsed time 00:00:04.6218442.
+[2021-09-25 08:23:47Z INFO JobDispatcher] Worker finished for job ca395085-040a-526b-2ce8-bdc85f692774. Code: 100
+[2021-09-25 08:23:47Z INFO JobDispatcher] finish job request for job ca395085-040a-526b-2ce8-bdc85f692774 with result: Succeeded
+[2021-09-25 08:23:47Z INFO Terminal] WRITE LINE: 2021-09-25 08:23:47Z: Job Build completed with result: Succeeded
+[2021-09-25 08:23:47Z INFO JobDispatcher] Stop renew job request for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2021-09-25 08:23:47Z INFO JobDispatcher] job renew has been canceled, stop renew job request 5.
+[2021-09-25 08:23:47Z INFO JobNotification] Entering JobCompleted Notification
+[2021-09-25 08:23:47Z INFO JobNotification] Entering EndMonitor
