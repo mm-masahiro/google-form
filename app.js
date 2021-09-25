@@ -5,8 +5,6 @@ const { google } = require("googleapis");
 const service = google.sheets("v4");
 const credentials = require("./credentials.json");
 
-const creaet_issue = require('./create_issue');
-
 // Configure auth client
 const authClient = new google.auth.JWT(
 	credentials.client_email,
@@ -24,8 +22,11 @@ const authClient = new google.auth.JWT(
 		// Set the client credentials
 		authClient.setCredentials(token);
 
+		const before_answers = fs.readFileSync('./answers.json', 'utf-8');
+		const before_answers_count = JSON.parse(before_answers).length;
+
 		// Get the rows
-		// この処理をスプシが更新された時に実行されるようにラップさせる
+		// 1日に2回くらいcronで定期実行させる
 		const res = await service.spreadsheets.values.get({
 			auth: authClient,
 			spreadsheetId: "1r59N6wuaaW4Ue4heIyoXp3oafpLkz2lqVB5VTmsWPc0",
@@ -58,8 +59,11 @@ const authClient = new google.auth.JWT(
 			if (err) throw err;
 			console.log("Saved!");
 		});
-
-		creaet_issue.create_issue();
+		
+		// lengthが違ったら実行させる
+		if (before_answers_count !== answers.length) {
+			const creaet_issue = require('./create_issue');
+		}
 
 	} catch (error) {
 
