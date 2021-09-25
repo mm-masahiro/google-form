@@ -14,4 +14,4 @@ jobs:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
           SLACK_USERNAME: My Alert
           SLACK_TITLE: タイトル
-          SLACK_MESSAGE: メッセージ
+          SLACK_MESSAGE: メッセージです
