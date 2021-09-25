@@ -6,7 +6,7 @@ name: Slack Notification
 # on: push
 on:
   issues:
-    types: [opened]
+    types: opened
 jobs:
   build:
     name: Build
