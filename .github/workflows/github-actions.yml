@@ -2,16 +2,16 @@ name: Slack Notification
 on:
   issues:
     types: opened
+env:
+  SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
 jobs:
   build:
     name: Build
     runs-on: macOS-10.15
     steps:
-      - name: Test1
-        run: |
-          echo "Hello, World!"
+      - uses: rtCamp/action-slack-notify@v2.0.2
+        name: Slack Notifiaction
         env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-          SLACK_USERNAME: My Alert
           SLACK_TITLE: タイトル
-          SLACK_MESSAGE: メッセージです
+          SLACK_COLOR: good
+          SLACK_MESSAGE: メッセージ送信テスト
