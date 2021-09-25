@@ -12,6 +12,7 @@ jobs:
       - uses: rtCamp/action-slack-notify@v2.0.2
         name: Slack Notifiaction
         env:
-          SLACK_TITLE: タイトル
+          SLACK_TITLE: 勉強会の感想
+          SLACK_ICON_EMOJI: ':github:'
           SLACK_COLOR: good
-          SLACK_MESSAGE: メッセージ送信テスト
+          SLACK_MESSAGE: 勉強会のFBが追加されました！（https://github.com/tetsu-tech/google-form/issues）
