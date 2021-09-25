@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "tetsu-tech/google-form",
+  "pipelineDirectory": "google-form",
+  "workspaceDirectory": "google-form/google-form",
+  "repositories": {
+    "tetsu-tech/google-form": {
+      "repositoryPath": "google-form/google-form",
+      "lastRunOn": "09/25/2021 17:23:44 +09:00"
+    }
+  },
+  "lastRunOn": "09/25/2021 17:23:44 +09:00"
+}

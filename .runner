@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 3,
+  "agentName": "morinagamasahiro-2",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/ZPWuuLyLRbgRe9LIXHUIiUXrw6Kd7LBslcvRCcHC82ilTzSLMM",
+  "gitHubUrl": "https://github.com/tetsu-tech/google-form",
+  "workFolder": "_work"
+}
