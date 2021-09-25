@@ -1,7 +1,8 @@
 name: Slack Notification
-on:
-  issues:
-    types: opened
+# on:
+#   issues:
+#     types: [opened]
+on: [push]
 jobs:
   build:
     name: Build
