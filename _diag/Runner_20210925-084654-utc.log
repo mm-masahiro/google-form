@@ -1,0 +1,151 @@
+[2021-09-25 08:46:54Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2021-09-25 08:46:54Z INFO HostContext] Well known directory 'Bin': '/Users/morinagamasahiro/google-form/bin'
+[2021-09-25 08:46:54Z INFO HostContext] Well known directory 'Root': '/Users/morinagamasahiro/google-form'
+[2021-09-25 08:46:54Z INFO HostContext] Well known config file 'Credentials': '/Users/morinagamasahiro/google-form/.credentials'
+[2021-09-25 08:46:55Z INFO Listener] Runner is built for OSX (X64) - osx-x64.
+[2021-09-25 08:46:55Z INFO Listener] RuntimeInformation: Darwin 19.6.0 Darwin Kernel Version 19.6.0: Thu Oct 29 22:56:45 PDT 2020; root:xnu-6153.141.2.2~1/RELEASE_X86_64.
+[2021-09-25 08:46:55Z INFO Listener] Version: 2.283.1
+[2021-09-25 08:46:55Z INFO Listener] Commit: e6baf0d2755bc747d0eb58f24941e273d16c6524
+[2021-09-25 08:46:55Z INFO Listener] Culture: ja-JP
+[2021-09-25 08:46:55Z INFO Listener] UI Culture: ja-JP
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Bin': '/Users/morinagamasahiro/google-form/bin'
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Root': '/Users/morinagamasahiro/google-form'
+[2021-09-25 08:46:55Z INFO Listener] Validating directory permissions for: '/Users/morinagamasahiro/google-form'
+[2021-09-25 08:46:55Z INFO CommandLineParser] Parse
+[2021-09-25 08:46:55Z INFO CommandLineParser] Parsing 1 args
+[2021-09-25 08:46:55Z INFO CommandLineParser] parsing argument
+[2021-09-25 08:46:55Z INFO CommandLineParser] HasArgs: False
+[2021-09-25 08:46:55Z INFO CommandLineParser] Adding Command: run
+[2021-09-25 08:46:55Z INFO Listener] Arguments parsed
+[2021-09-25 08:46:55Z INFO Runner] ExecuteCommand
+[2021-09-25 08:46:55Z INFO ConfigurationStore] currentAssemblyLocation: /Users/morinagamasahiro/google-form/bin/Runner.Listener.dll
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Bin': '/Users/morinagamasahiro/google-form/bin'
+[2021-09-25 08:46:55Z INFO ConfigurationStore] binPath: /Users/morinagamasahiro/google-form/bin
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Bin': '/Users/morinagamasahiro/google-form/bin'
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Root': '/Users/morinagamasahiro/google-form'
+[2021-09-25 08:46:55Z INFO ConfigurationStore] RootFolder: /Users/morinagamasahiro/google-form
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Bin': '/Users/morinagamasahiro/google-form/bin'
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Root': '/Users/morinagamasahiro/google-form'
+[2021-09-25 08:46:55Z INFO HostContext] Well known config file 'Runner': '/Users/morinagamasahiro/google-form/.runner'
+[2021-09-25 08:46:55Z INFO ConfigurationStore] ConfigFilePath: /Users/morinagamasahiro/google-form/.runner
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Bin': '/Users/morinagamasahiro/google-form/bin'
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Root': '/Users/morinagamasahiro/google-form'
+[2021-09-25 08:46:55Z INFO HostContext] Well known config file 'Credentials': '/Users/morinagamasahiro/google-form/.credentials'
+[2021-09-25 08:46:55Z INFO ConfigurationStore] CredFilePath: /Users/morinagamasahiro/google-form/.credentials
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Bin': '/Users/morinagamasahiro/google-form/bin'
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Root': '/Users/morinagamasahiro/google-form'
+[2021-09-25 08:46:55Z INFO HostContext] Well known config file 'MigratedCredentials': '/Users/morinagamasahiro/google-form/.credentials_migrated'
+[2021-09-25 08:46:55Z INFO ConfigurationStore] MigratedCredFilePath: /Users/morinagamasahiro/google-form/.credentials_migrated
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Bin': '/Users/morinagamasahiro/google-form/bin'
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Root': '/Users/morinagamasahiro/google-form'
+[2021-09-25 08:46:55Z INFO HostContext] Well known config file 'Service': '/Users/morinagamasahiro/google-form/.service'
+[2021-09-25 08:46:55Z INFO ConfigurationStore] ServiceConfigFilePath: /Users/morinagamasahiro/google-form/.service
+[2021-09-25 08:46:55Z INFO CommandSettings] Flag 'help': 'False'
+[2021-09-25 08:46:55Z INFO CommandSettings] Flag 'version': 'False'
+[2021-09-25 08:46:55Z INFO CommandSettings] Flag 'commit': 'False'
+[2021-09-25 08:46:55Z INFO CommandSettings] Flag 'check': 'False'
+[2021-09-25 08:46:55Z INFO CommandSettings] Command 'configure': 'False'
+[2021-09-25 08:46:55Z INFO CommandSettings] Command 'remove': 'False'
+[2021-09-25 08:46:55Z INFO CommandSettings] Command 'warmup': 'False'
+[2021-09-25 08:46:55Z INFO ConfigurationManager] LoadSettings
+[2021-09-25 08:46:55Z INFO ConfigurationStore] IsConfigured()
+[2021-09-25 08:46:55Z INFO ConfigurationStore] IsConfigured: True
+[2021-09-25 08:46:55Z INFO ConfigurationManager] Is configured: True
+[2021-09-25 08:46:55Z INFO ConfigurationStore] Read setting file: 297 chars
+[2021-09-25 08:46:55Z INFO ConfigurationManager] Settings Loaded
+[2021-09-25 08:46:55Z INFO ConfigurationStore] IsServiceConfigured()
+[2021-09-25 08:46:55Z INFO ConfigurationStore] IsServiceConfigured: False
+[2021-09-25 08:46:55Z INFO CommandSettings] Command 'run': 'True'
+[2021-09-25 08:46:55Z INFO ConfigurationStore] IsConfigured()
+[2021-09-25 08:46:55Z INFO ConfigurationStore] IsConfigured: True
+[2021-09-25 08:46:55Z INFO ConfigurationManager] Is configured: True
+[2021-09-25 08:46:55Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2021-09-25 08:46:55Z INFO Runner] Set runner startup type - Manual
+[2021-09-25 08:46:55Z INFO CommandSettings] Flag 'once': 'False'
+[2021-09-25 08:46:55Z INFO Runner] RunAsync
+[2021-09-25 08:46:55Z INFO ConfigurationManager] LoadSettings
+[2021-09-25 08:46:55Z INFO ConfigurationStore] IsConfigured()
+[2021-09-25 08:46:55Z INFO ConfigurationStore] IsConfigured: True
+[2021-09-25 08:46:55Z INFO ConfigurationManager] Is configured: True
+[2021-09-25 08:46:55Z INFO ConfigurationManager] Settings Loaded
+[2021-09-25 08:46:55Z INFO MessageListener] {
+  "AgentId": 3,
+  "AgentName": "morinagamasahiro-2",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/ZPWuuLyLRbgRe9LIXHUIiUXrw6Kd7LBslcvRCcHC82ilTzSLMM",
+  "GitHubUrl": "https://github.com/tetsu-tech/google-form",
+  "WorkFolder": "_work"
+}
+[2021-09-25 08:46:55Z INFO MessageListener] Loading Credentials
+[2021-09-25 08:46:55Z INFO ConfigurationStore] HasCredentials()
+[2021-09-25 08:46:55Z INFO ConfigurationStore] stored True
+[2021-09-25 08:46:55Z INFO CredentialManager] GetCredentialProvider
+[2021-09-25 08:46:55Z INFO CredentialManager] Creating type OAuth
+[2021-09-25 08:46:55Z INFO CredentialManager] Creating credential type: OAuth
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Bin': '/Users/morinagamasahiro/google-form/bin'
+[2021-09-25 08:46:55Z INFO HostContext] Well known directory 'Root': '/Users/morinagamasahiro/google-form'
+[2021-09-25 08:46:55Z INFO HostContext] Well known config file 'RSACredentials': '/Users/morinagamasahiro/google-form/.credentials_rsaparams'
+[2021-09-25 08:46:55Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/morinagamasahiro/google-form/.credentials_rsaparams
+[2021-09-25 08:46:55Z INFO MessageListener] Attempt to create session.
+[2021-09-25 08:46:55Z INFO MessageListener] Connecting to the Runner Server...
+[2021-09-25 08:46:55Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-09-25 08:46:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-09-25 08:46:55Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-09-25 08:46:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-09-25 08:46:55Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-09-25 08:46:55Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-09-25 08:46:56Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-09-25 08:46:56Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-09-25 08:46:56Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-09-25 08:46:56Z INFO MessageListener] VssConnection created
+[2021-09-25 08:46:56Z INFO Terminal] WRITE LINE: 
+[2021-09-25 08:46:56Z INFO Terminal] WRITE LINE: 
+[2021-09-25 08:46:56Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: a3cf48b2-866d-4aaf-8318-e0f3eb7297cf
+ActivityId: 5a6ce4f6-839d-498e-b6a3-8d96bf4af733
+X-TFS-Session: 6502945a-abed-4e78-b617-b79ac073688c
+X-VSS-E2EID: 01b727b6-0533-48d4-b1c3-e57000bb8519
+X-VSS-SenderDeploymentId: 1139089e-89fd-ce7a-6851-1ac6328a300e
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: B1F94EC0A6194430ACE31E560B2C4F12 Ref B: TYBEDGE0516 Ref C: 2021-09-25T08:46:56Z
+Date: Sat, 25 Sep 2021 08:46:56 GMT
+
+[2021-09-25 08:46:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/morinagamasahiro/google-form/.credentials_rsaparams
+[2021-09-25 08:46:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /Users/morinagamasahiro/google-form/.credentials_rsaparams
+[2021-09-25 08:46:57Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-09-25 08:46:57Z ERR  GitHubActionsService] POST request to https://pipelines.actions.githubusercontent.com/ZPWuuLyLRbgRe9LIXHUIiUXrw6Kd7LBslcvRCcHC82ilTzSLMM/_apis/distributedtask/pools/1/sessions failed. HTTP Status: Conflict, AFD Ref: Ref A: F949F4F7BBF74D85B0769295CE0086A9 Ref B: TYBEDGE0516 Ref C: 2021-09-25T08:46:57Z
+[2021-09-25 08:46:57Z ERR  MessageListener] Catch exception during create session.
+[2021-09-25 08:46:57Z ERR  MessageListener] GitHub.DistributedTask.WebApi.TaskAgentSessionConflictException: The actions runner morinagamasahiro-2 already has an active session for owner morinagamasahiro-2.
+   at GitHub.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.CreateSessionAsync(CancellationToken token)
+[2021-09-25 08:46:57Z INFO MessageListener] The session for this runner already exists.
+[2021-09-25 08:46:57Z ERR  Terminal] WRITE ERROR: A session for this runner already exists.
+[2021-09-25 08:46:57Z INFO MessageListener] The session conflict exception haven't reached retry limit.
+[2021-09-25 08:46:57Z ERR  Terminal] WRITE ERROR: 2021-09-25 08:46:57Z: Runner connect error: The actions runner morinagamasahiro-2 already has an active session for owner morinagamasahiro-2.. Retrying until reconnected.
+[2021-09-25 08:46:57Z INFO MessageListener] Sleeping for 30 seconds before retrying.
+[2021-09-25 08:47:27Z INFO MessageListener] Attempt to create session.
+[2021-09-25 08:47:27Z INFO MessageListener] Connecting to the Runner Server...
+[2021-09-25 08:47:27Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-09-25 08:47:27Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-09-25 08:47:27Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-09-25 08:47:27Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-09-25 08:47:27Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-09-25 08:47:27Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-09-25 08:47:27Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-09-25 08:47:28Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-09-25 08:47:28Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-09-25 08:47:28Z INFO MessageListener] VssConnection created
+[2021-09-25 08:47:28Z INFO Terminal] WRITE LINE: 
+[2021-09-25 08:47:28Z INFO Terminal] WRITE LINE: 
+[2021-09-25 08:47:28Z INFO MessageListener] Session created.
+[2021-09-25 08:47:28Z INFO Terminal] WRITE LINE: 2021-09-25 08:47:28Z: Runner reconnected.
+[2021-09-25 08:47:28Z INFO Terminal] WRITE LINE: 2021-09-25 08:47:28Z: Listening for Jobs
+[2021-09-25 08:47:28Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
