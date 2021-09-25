@@ -10,6 +10,6 @@ on: push
 jobs:
   build:
     name: Build
-    runs-on: [self-hosted, pc]
+    runs-on: [self-hosted, macos]
     steps:
       run: echo Hello, world
