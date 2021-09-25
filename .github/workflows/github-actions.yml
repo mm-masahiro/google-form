@@ -1,9 +1,4 @@
 name: Slack Notification
-# env:
-#   INCOMING_WEBHOOK_URL: "https://hooks.slack.com/services/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"
-# with:
-#   text: Hello, Slack!!
-# on: push
 on:
   issues:
     types: opened
@@ -15,3 +10,8 @@ jobs:
       - name: Test1
         run: |
           echo "Hello, World!"
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          SLACK_USERNAME: My Alert
+          SLACK_TITLE: タイトル
+          SLACK_MESSAGE: メッセージ
