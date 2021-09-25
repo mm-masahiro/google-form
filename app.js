@@ -5,6 +5,8 @@ const { google } = require("googleapis");
 const service = google.sheets("v4");
 const credentials = require("./credentials.json");
 
+const creaet_issue = require('./create_issue');
+
 // Configure auth client
 const authClient = new google.auth.JWT(
 	credentials.client_email,
@@ -23,10 +25,11 @@ const authClient = new google.auth.JWT(
 		authClient.setCredentials(token);
 
 		// Get the rows
+		// この処理をスプシが更新された時に実行されるようにラップさせる
 		const res = await service.spreadsheets.values.get({
 			auth: authClient,
 			spreadsheetId: "1r59N6wuaaW4Ue4heIyoXp3oafpLkz2lqVB5VTmsWPc0",
-			range: "A:F",
+			range: "A:G",
 		});
 
 		// All of the answers
@@ -43,7 +46,7 @@ const authClient = new google.auth.JWT(
 
 			// For each row
 			for (const row of rows) {
-				answers.push({ timeStamp: row[0], answer1: row[1],  answer2: row[2], answer3: row[3], answer4: row[4], repositoryName: row[5]});
+				answers.push({ timeStamp: row[0], answer1: row[1],  answer2: row[2], answer3: row[3], answer4: row[4], repositoryName: row[5], title: row[6]});
 			}
 
 		} else {
@@ -55,6 +58,8 @@ const authClient = new google.auth.JWT(
 			if (err) throw err;
 			console.log("Saved!");
 		});
+
+		creaet_issue.create_issue();
 
 	} catch (error) {
 
