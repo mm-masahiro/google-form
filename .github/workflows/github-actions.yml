@@ -1,0 +1,12 @@
+name: Slack Notification
+on:
+  issues:
+    types: opened
+jobs:
+  build:
+    name: Build
+    runs-on: [self-hosted, pc]
+env:
+  INCOMING_WEBHOOK_URL: "https://hooks.slack.com/services/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"
+with:
+  text: Hello, Slack
