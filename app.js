@@ -1,6 +1,7 @@
 // Import dependencies
 const fs = require("fs");
 const { google } = require("googleapis");
+const http = require('http');
 
 const service = google.sheets("v4");
 const credentials = require("./credentials.json");
@@ -13,7 +14,7 @@ const authClient = new google.auth.JWT(
 	["https://www.googleapis.com/auth/spreadsheets"]
 );
 
-(async function () {
+const create_answer_json = async () => {
 	try {
 
 		// Authorize the client
@@ -74,5 +75,9 @@ const authClient = new google.auth.JWT(
 		process.exit(1);
 
 	}
+}
 
-})();
+const server = http.createServer(function(req, res) {
+	create_answer_json();
+	res.end('success')
+}).listen(3030);
