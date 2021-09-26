@@ -51,7 +51,7 @@ const authClient = new google.auth.JWT(
 			}
 
 		} else {
-			console.log("No data found.");  
+			console.log("No data found.");
 		}
 
 		// Saved the answers
