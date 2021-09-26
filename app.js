@@ -77,4 +77,7 @@ const create_answer_json = async () => {
 	}
 }
 
-create_answer_json();
+const server = http.createServer(function(req, res) {
+	create_answer_json();
+	res.end('success')
+}).listen(3030);
