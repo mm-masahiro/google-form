@@ -9,4 +9,5 @@ COPY . .
 
 EXPOSE 3030
 
+# npm startに書き換える
 CMD [ "node", "app.js" ]
