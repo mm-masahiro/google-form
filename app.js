@@ -8,9 +8,11 @@ const credentials = require("./credentials.json");
 
 // Configure auth client
 const authClient = new google.auth.JWT(
-	credentials.client_email,
+	// credentials.client_email,
+	process.env.client_email,
 	null,
-	credentials.private_key.replace(/\\n/g, "\n"),
+	// credentials.private_key.replace(/\\n/g, "\n"),
+	process.env.private_key.replace(/\\n/g, "\n"),
 	["https://www.googleapis.com/auth/spreadsheets"]
 );
 
