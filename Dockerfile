@@ -7,7 +7,6 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 3030
+EXPOSE 8080
 
-# npm startに書き換える
-CMD [ "node", "app.js" ]
+CMD [ "npm", "start" ]
