@@ -3,16 +3,16 @@ const fs = require("fs");
 const { google } = require("googleapis");
 const http = require('http');
 
+const dotEnv = require('dotenv').config();
+
 const service = google.sheets("v4");
-// const credentials = require("./credentials.json");
 
 // Configure auth client
 const authClient = new google.auth.JWT(
 	// credentials.client_email,
-	process.env.client_email,
+	process.env.CLIENT_EMAIL,
 	null,
-	// credentials.private_key.replace(/\\n/g, "\n"),
-	process.env.private_key.replace(/\\n/g, "\n"),
+	process.env.PRIVATE_KEY.replace(/\\n/g, "\n"),
 	["https://www.googleapis.com/auth/spreadsheets"]
 );
 
