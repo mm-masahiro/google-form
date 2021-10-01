@@ -9,7 +9,6 @@ const service = google.sheets("v4");
 
 // Configure auth client
 const authClient = new google.auth.JWT(
-	// credentials.client_email,
 	process.env.CLIENT_EMAIL,
 	null,
 	process.env.PRIVATE_KEY.replace(/\\n/g, "\n"),
